@@ -1,0 +1,18 @@
+[project]
+name = "goit-pyweb2-0-02-personal-assistant-cli-docker-trynee"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Andrej",email = "pytpoint@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "goit_pyweb2"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
